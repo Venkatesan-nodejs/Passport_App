@@ -31,7 +31,6 @@ public class PersonPassport {
 				try {
 					ob.getPassport();
 				} catch (ServiceException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 				break;
@@ -39,10 +38,10 @@ public class PersonPassport {
 				try {
 					ob.displayAll();
 				} catch (ServiceException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 				break;
+				// Case 4 is peculiar
 			case 4:
 				try {
 				ob.sortByBirthPlace();
